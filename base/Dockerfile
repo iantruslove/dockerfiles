@@ -2,8 +2,8 @@
 #
 # VERSION 0.1.0
 
-# Start with Precise LTS
-FROM ubuntu:12.04
+# Start with Saucy
+FROM ubuntu:saucy
 
 MAINTAINER Ian Truslove "ian.truslove@gmail.com"
 
