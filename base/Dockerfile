@@ -2,10 +2,10 @@
 #
 # VERSION 0.1.0
 
-MAINTAINER Ian Truslove "ian.truslove@gmail.com"
-
 # Start with Precise LTS
-FROM iant/base:0.1.0
+FROM ubuntu:12.04
+
+MAINTAINER Ian Truslove "ian.truslove@gmail.com"
 
 # Get base system's updates
 RUN apt-get update
